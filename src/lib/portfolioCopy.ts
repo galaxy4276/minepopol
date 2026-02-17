@@ -49,6 +49,7 @@ type PortfolioCopy = {
     cta: {
       linkedin: string;
       email: string;
+      resume: string;
       works: string;
     };
   };
@@ -107,6 +108,7 @@ export const portfolioCopy: Record<Locale, PortfolioCopy> = {
       cta: {
         linkedin: "LinkedIn",
         email: "Email",
+        resume: "Resume (PDF)",
         works: "代表作を見る",
       },
     },
@@ -267,6 +269,7 @@ export const portfolioCopy: Record<Locale, PortfolioCopy> = {
       cta: {
         linkedin: "LinkedIn",
         email: "Email",
+        resume: "Resume (PDF)",
         works: "Selected Works",
       },
     },

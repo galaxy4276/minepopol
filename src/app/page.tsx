@@ -824,6 +824,9 @@ export default function HomePage() {
                   <MagneticLink href={`mailto:${EMAIL_ADDRESS}`} className="inline-flex cta-secondary">
                     {copy.hero.cta.email}
                   </MagneticLink>
+                  <MagneticLink href="/resume_minesp.pdf" external className="inline-flex cta-secondary">
+                    {copy.hero.cta.resume}
+                  </MagneticLink>
                   <button type="button" className="inline-flex cta-secondary" onClick={copyEmail}>
                     {emailCopied ? uiText.copied : uiText.copyEmail}
                   </button>
